@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timothy Wong - Web Page CSCE 432</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Timothy Wong</h1>
+            <p>Computer Science Student @ Texas A&M University</p>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            
+            <img src="assets/timothy-wong.png" alt="Portrait of Timothy Wong smiling in a suit with a " class="profile-photo">
+            
+            <p>
+                Howdy! My name is <strong>Timothy Wong</strong> and I'm a Computer Science major at Texas A&M University graduating in May 2026. 
+                I love building all sorts of software, and I also hope to create accessible software that works for everyone. Without accessibility built into applications, 
+                a lot of users would be left out and unable to use some of the most popular websites and apps that we use <em>every single day.</em>
+            </p>
+            
+            <p>
+                In my coursework I am currently focusing on:
+            </p>
+            
+            <ul>
+                <li>Creating accessible websites for all to use (Following WCAG)</li>
+                <li>Understanding different types of assistive technology</li>
+                <li>Integrating principles of inclusive design in everything I develop</li>
+            </ul>
+
+            <p>
+                Outside of class I enjoy playing sports like volleyball, bouldering, pickleball, tennis, 
+                <a href="https://spikeball.com/pages/spikeball-rules-how-to-play?srsltid=AfmBOopLb82DZE882lV9BYSB5lDyBEWrU0AubQZzISk0iHLZuqzFkMg_" target="_blank">Spikeball (official rules page)</a>, and basketball.
+                I also enjoy playing piano, guitar, and even produce my own music for fun.
+            </p>
+        </section>
+
+        <section id="contact">
+            <div class="header-with-icon">
+                <img src="assets/mail-icon.png" alt="" class="decorative-icon"> 
+                <h2>Connect With Me</h2>
+            </div>
+
+            <p>
+                If you'd like to contact me, please reach out to my email with this form (using Formspree)!
+            </p>
+            
+            <form action="https://formspree.io/f/xbdallqk" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Send Email</button>
+            </form>
+        </section>
+
+        <section id="links">
+            <h3>Find me elsewhere</h3>
+            <p>
+                You can also see my classmate's bios on the <a href="https://github.com">Web Page Bio Links Document</a>.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> 2026 Timothy Wong. For CSCE 432 Web Page Assignment.</p>
+    </footer>
+
+</body>
+</html>
